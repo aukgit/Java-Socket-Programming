@@ -5,17 +5,16 @@
  */
 package javasocketprogramming;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Alim
  */
-public class JavaSocketProgramming {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
+public class Server {
+    public static void main(String[] args){
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Server Ip(blank for localhost):");
+        String serverip = scanner.nextLine();
     }
-    
 }
