@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+  <persistence-unit name="JavaApplication7PU" transaction-type="RESOURCE_LOCAL">
+    <provider>org.eclipse.persistence.jpa.PersistenceProvider</provider>
+    <class>javaapplication7.Userstatus</class>
+    <class>javaapplication7.User</class>
+    <class>javaapplication7.Messagerecent</class>
+    <class>javaapplication7.Towhomaliaswhat</class>
+    <class>javaapplication7.Msgfile</class>
+    <class>javaapplication7.Chatsessionrelateduser</class>
+    <class>javaapplication7.Chatlist</class>
+    <class>javaapplication7.Friendrequestdisplay</class>
+    <class>javaapplication7.Userrecentstatus</class>
+    <class>javaapplication7.Activestate</class>
+    <class>javaapplication7.Friendrequest</class>
+    <class>javaapplication7.Message</class>
+    <class>javaapplication7.Usermsgreceived</class>
+    <class>javaapplication7.Serversetting</class>
+    <class>javaapplication7.Chatsession</class>
+    <class>javaapplication7.Friendrequest_1</class>
+    <properties>
+      <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/chatdatabase?zeroDateTimeBehavior=convertToNull"/>
+      <property name="javax.persistence.jdbc.password" value=""/>
+      <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+      <property name="javax.persistence.jdbc.user" value="root"/>
+    </properties>
+  </persistence-unit>
+</persistence>
